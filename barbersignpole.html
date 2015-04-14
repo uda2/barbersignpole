@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+<!--
+html,body { 
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+.pole { 
+	margin:0;
+	padding:0;
+	width:100px;
+	height:500px;
+	float:left;
+}
+-->
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="barbersignpole.js"></script>
+<script>
+<!--
+$(function(){
+	$("#pole1").barbersignpole();
+	$("#pole2").barbersignpole({
+			'vect' : 9,
+			'patern' : [
+				{color:"#F843DD",width:2},
+				{color:"#FFF",width:2},
+				{color:"#00B6F1",width:2},
+				{color:"#FFF",width:2}
+			]
+		});
+	$("#pole3").barbersignpole({
+			'vect' : 3,
+			'patern' : [
+				{color:"#555",width:2.2},
+				{color:"#FFF",width:0.3},
+				{color:"#999",width:0.3},
+				{color:"#FFF",width:2.2},
+				{color:"#999",width:2.2},
+				{color:"#FFF",width:0.3},
+				{color:"#555",width:0.3},
+				{color:"#FFF",width:2.2}
+			]
+		});
+	$("#pole4").barbersignpole({
+			'vect' : 1,
+			'speed' : 6,
+			'patern' : [
+				{color:"#F90",width:3},
+				{color:"#FFF",width:3},
+				{color:"#3C3",width:3},
+				{color:"#FFF",width:3}
+			]
+		});
+});
+//-->
+</script>
+</head>
+<body>
+<div class="pole" id="pole1"></div>
+<div class="pole" id="pole2"></div>
+<div class="pole" id="pole3"></div>
+<div class="pole" id="pole4"></div>
+
+</body>
+</html>
